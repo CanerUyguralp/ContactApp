@@ -1,0 +1,59 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ContactApp/bin/Debug/net9.0
+/ContactApp/obj
+
+# Build sonuçları
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio özel dosyaları
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Paketler
+*.nupkg
+*.snupkg
+packages/
+
+# Log dosyaları
+*.log
+*.tlog
+
+# Kullanıcı gizli bilgileri
+secrets.json
+appsettings.Development.json
+
+# Publish çıktıları
+publish/
+wwwroot/lib/
+node_modules/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Temp
+*.tmp
+*.bak
+
+.vs/
+bin/
+obj/
+/ContactApp/appsettings.Development.json
